@@ -1,5 +1,6 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Travel Status view entity'
+@ObjectModel.resultSet.sizeCategory: #XS -- drop down menu for value help
 define view entity zi_fe_stat_000168
   as select from zfe_astat_000168 as Status
 {
